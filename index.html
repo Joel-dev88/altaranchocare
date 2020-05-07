@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163867699-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-163867699-1');
-        </script>
-
+        
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
@@ -18,16 +9,15 @@
         <link rel="stylesheet" type="text/css" href="resources/css/style.css">
         <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <link href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Pacifico&display=swap" rel="stylesheet">
-    
-        
 
         <title>AltaRanchoCareHome</title>
     </head>
     <body id="home">
+        <section id="home" class="page">
         <header class="hero">
             <div id="navber" class="navbar">
             <h1 class="logo">
-                <span class="text-primary"><i class="fas fa-book-open"></i> Alta Rancho</span> Care Home 
+                <span class="text-primary"><i class="fa"></i> Alta Rancho</span> Care Home 
             </h1>
             <nav>
                 <ul>
@@ -47,33 +37,10 @@
                 <a class="btn btn-ghost" href="#">Watch Our Welcome Video</a>
             </div>
             
-<!--
-            <nav id="navbar">
-                <div class="container">
-                    <ul>
-                        <h5 class="logo"><span class="text-primary"><i class="fas"></i> Edge</span>Ledger
-                        </h5>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">SERVICES</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="hero-text-box">
-                <h1>Assisted Living</h1>
-                <a class="sub-main">Alta Rancho Care Home
-                </a>
-                <p>This is text about the house, This is text about the house,
-                , This is text about the house, This is text about the house</p>
-                <a class="btn btn-full" href="">Schedule A Tour</a>
-                <a class="btn btn-ghost" href="#">Watch Our Welcome Video</a>
-            </div>
--->    
-            
         </header>
+        </section>
         
-        <section class="section-features">
+        <section id="about" class="page">
             <div class="row1">
                 <h2>The Highest Quality Of Senior Care</h2>
                 <p class="long-copy">
@@ -104,15 +71,13 @@
                         Throughout the years, we have promoted a family-like atmosphere where staff and residents interact on a truly personal level.
                     </p>
                 </div>
-                
             </div>
         </section>
         
-        <section class="sectin-form">
+        <section id="page-3" class="sectin-form" class="page">
             <div class="row">
                 <h4>If You’re Interested In Learning More About Our Senior Living Communities, Please Fill Out The Form Below And A Member Of Our Team Will Be In Touch!</h4>
             </div>
-            <div class="row">
                 <form method="post" action="#" class="contact-form">
                     <div class="row">
                         <div class="col span-1-of-3">
@@ -159,23 +124,21 @@
                         <div class="col span-2-of-3">
                             <input type="submit" class="form-control submit" value="Submit">
                         </div>
-                        <div>
-                            <div class="calendly-inline-widget" 
-                            data-url="https://calendly.com/altaranchocare/scheel" style="height:930px;"></div>
-                            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
-                        </div>
-                    
-                    </div>
-                
-                </form>
-                
+                    </div>                   
+                </form> 
+        </section>
+        
+        <section id="contact" class="page1">
+            <div>
+                <div class="calendly-inline-widget" 
+                data-url="https://calendly.com/altaranchocare/scheel" style="height:930px;"></div>
+                <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>          
             </div>
         </section>
         
-        <div class="clr"></div>
-
+    <div class="clr"></div>
     <footer id="main-footer">
-        <p>Alta Rancho Care Home &copy; 2019, All rights Reserved</p>
+        <p>Alta Rancho Care Home &copy; 2020, All rights Reserved</p>
     </footer>
     
     

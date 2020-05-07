@@ -102,15 +102,14 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top:65px;
     font-family: 'Playfair Display', 'Georgia', serif;
     color: #28b062;
 }
 
 p {
-    margin: 10px 0;
+    margin: 10px 0;   
 
-    
 }
 
 img {
@@ -264,7 +263,6 @@ h4{
     word-spacing: 5px;
     padding: 0 20px;
     font-size: 60px;
-    text-align: left;
     display: block;
 }
 
@@ -345,10 +343,6 @@ header {
 
 
 /*------------------------------------*/
-.section-features{
-    
-    
-}
 
 .long-co{
     text-align: center;
@@ -370,14 +364,11 @@ header {
 /*------------------------------------*/
 
 .contact-form{
-    widows: 180%;
+    widows: 150%;
     margin: 0 auto;
     margin-top: 50px;
     font-size: 25px;
     padding: 0 20px;
-
-
-    
 }
 
 input[type=text],
@@ -397,7 +388,6 @@ textarea {
 }
 
 form .submit{
-    display: inline-block;
     margin-top: 0px;
     margin-bottom: 60px;
     padding: 10px 50px;
@@ -411,21 +401,34 @@ form .submit{
     transition: background-color 0.2s, bouder 0.2s, color 0.2s;
 }
 
+
+
+        /*Calendar*/
 .calendly-inline-widget{
     margin: 0 auto;
+    padding-top: 30px;
+}
+
+.clr {
+    margin: 0 auto;
+}
+
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
     text-align: center;
 }
 
-/* Utility Classes */
-/*
-.container {
-    margin: auto;
-    max-width: 1100px;
-    overflow: auto;
-    padding: 0 20px;
+.page1{
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }
-*/
-
 
 
 
