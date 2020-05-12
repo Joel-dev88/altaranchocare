@@ -45,8 +45,7 @@ body {
 /*------------------------------------*/
 
 .row {
-    max-width: 1140px;
-    margin: 0 auto;
+    margin: center;
 }
 .row1 {
     font-size: 150%;
@@ -98,7 +97,7 @@ h1 {
 h2 {
     font-weight: 300;
     line-height: 1.2;
-    font-size: 70px;
+    font-size: 270%;
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
@@ -128,11 +127,9 @@ img {
     opacity: 0.8;
     background-image: linear-gradient(9deg, rgba(0, 0, 0, 0.85) 100%, rgba(146, 149, 152, 0.82) 0%);
     width: 100%;
-    height: 80px;
     position: fixed;
-    top: 0px;
     padding: 0 20px;
-    margin: 20px;
+    margin: 15px;
     border-radius: 25px;    
 
 }
@@ -140,7 +137,7 @@ img {
 .navbar a {
     color: #ffffff;
     font-size: 20px;
-    padding: 10px 25px;
+    padding: 1px 25px;
     margin: 0 20px;
 }
 
@@ -154,13 +151,21 @@ img {
 
 
 .navbar .logo {
-    font-weight: 400;
+    font-weight: 00;
     padding: 10px 25px;
     font-size: 45px;
     font-family: "Bad Script", 'Arial', sans-serif;
 }
 
 
+.front-p {
+    max-width: 1100px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 200px
+}
                 /* Header new */
 
 .hero { 
@@ -183,41 +188,27 @@ img {
 }
 
 .hero .content h1 {
-    font-size: 55px;
+    font-size: 55%;
 }
 
 .hero .content p {
-    font-size: 23px;
-    max-width: 600px;
+    font-size: 23%;
     margin: 20px 0 30px;
 }
 
-/*
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-*/
 
-.hero * {
-    z-index: 10;
-}
+
 
                         /*Old*/
 
 h3{
     text-align: center;
     font-weight: 500;
-    font-size: 25px
+    font-size: 125%;
 }
 
 h4{
     text-align: center;
-    font-weight: 500;
     word-spacing: 3px;
     font-size: 140%;
     letter-spacing: 4px;
@@ -231,7 +222,7 @@ h4{
 
 .long-copy {
     text-align: center;
-    font-size: 45px;
+    font-size: 45%;
     margin-bottom: 10px;
     color: #5a5a5a;
     font-family: 'Playfair Display', 'Georgia', serif;
@@ -257,12 +248,11 @@ h4{
     margin-bottom: 8px;
     margin-top: -22px;
     color: #eded8d;
-    font-size: 75px;
     word-spacing: 5px;
     letter-spacing: 1px;
     word-spacing: 5px;
     padding: 0 20px;
-    font-size: 60px;
+    font-size: 360%;
     display: block;
 }
 
@@ -270,7 +260,7 @@ h4{
     padding:  20px;
     color: #ffffff;
     font-family: 'Playfair Display', 'Georgia', serif;
-    font-size: 120px;
+    font-size: 520%;
     margin-bottom: 0;
     margin-top: 30px;
     box-sizing: border-box;
@@ -278,7 +268,7 @@ h4{
 
 
 .box p {
-    font-size: 19px;
+    font-size: 99%;
     line-height: 175%;
     padding: 0 20px;
 
@@ -318,21 +308,13 @@ header {
 
 
 .hero-text-box {
-	float:left;
 	display: block;
-	max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 50px;
-    padding-right: 20px;
-    padding-bottom: 25px;
-    padding-top: 200px;
+    
     
 }
 
 .hero-text-box p {
-    max-width: 1300px;
-    font-size: 25px;
+    font-size: 125%;
     padding: 0 20px;
     
 }
@@ -353,7 +335,6 @@ header {
 
 .row3 {
     font-size: 120%;
-    max-width: 1140px;
     margin: 0 auto;
     color: #050505;
     word-spacing: 5px;
@@ -367,7 +348,7 @@ header {
     widows: 150%;
     margin: 0 auto;
     margin-top: 50px;
-    font-size: 25px;
+    font-size: 125%;
     padding: 0 20px;
 }
 
@@ -375,7 +356,7 @@ input[type=text],
 input[type=email],
 selec,
 textarea {
-    font-size: 25px;
+    font-size: 125%;
     width: 100%;
     padding: 10px;
     border-radius: 3px;
@@ -391,7 +372,7 @@ form .submit{
     margin-top: 0px;
     margin-bottom: 60px;
     padding: 10px 50px;
-    font-size: 35px;
+    font-size: 135%;
     font-weight: 400;
     text-decoration: none;
     border-radius: 500px;
@@ -429,7 +410,6 @@ form .submit{
     justify-content: center;
     text-align: center;
 }
-
 
 
 
