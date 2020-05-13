@@ -50,6 +50,8 @@
     border-radius: 45px;
     color: #ffffff;
     border: 1px solid #51a7e0;
+    align-items: center;
+
 }
 
 .btn-full:link,
