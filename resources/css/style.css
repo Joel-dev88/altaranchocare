@@ -35,8 +35,8 @@ html {
 
 body {
     font-family: 'lato', 'Arial', sans-serif;
-    background: linear-gradient(0deg, rgba(128, 128, 128, 0.73) 50%, #ffffff 50%);
-    color: #ffffff;
+    background: linear-gradient(0deg, rgba(229, 229, 229, 0.73) 50%, #ffffff 50%);
+    color: #050505;
     line-height: 1.6;
 }
 
@@ -48,11 +48,15 @@ body {
     max-width: 1140px;
     margin: 0 auto;
 
+
 }
 .row1 {
     font-size: 150%;
 }
 
+#about.page{
+    display:block;
+}
 
 /* HEADING */
 
@@ -335,15 +339,6 @@ h4{
     margin-top: 20px;
 }
 
-.row3 {
-    font-size: 120%;
-    margin: 0 auto;
-    color: #050505;
-    word-spacing: 5px;
-    margin-bottom: 50px;
-
-
-}
 /*------------------------------------*/
 
 .contact-form{
@@ -358,26 +353,25 @@ input[type=text],
 input[type=email],
 selec,
 textarea {
-    font-size: 125%;
+    font-size: 105%;
     width: 100%;
     padding: 10px;
     border-radius: 3px;
     border: 1px solid #050505;
     padding: 0 20px;
+    height: 45px
 }
 
 textarea {
-    height: 100px
+    height: 100px;
 }
 
 form .submit{
-    margin-top: 0px;
-    margin-bottom: 60px;
     padding: 10px 50px;
     font-size: 135%;
     font-weight: 400;
     text-decoration: none;
-    border-radius: 500px;
+    border-radius: 50px;
     background-color: #51a7e0;
     color: #ffffff;
     border: 1px solid #51a7e0;
@@ -397,11 +391,6 @@ form .submit{
 }
 
 
-.page1{
-    height: 100vh;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
-}
+
 
 

@@ -7,11 +7,13 @@
 
 /* small tables to big tables: for 768px to 1023px */
 @media only screen and (max-width: 1024px) {
-    .hero { 
-        background: url(img/back_ground_Fotor.jpg) no-repeat center center/cover;
-        height: 100vh;
-        color: rgb(255, 255, 255);
-    }
+    .hero {
+    background-image: linear-gradient(rgba(78, 113, 110, 0.28), rgb(0, 0, 0, 0.7)), url(img/back_ground_Fotor.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;    
+}
     .front-p {
         text-align: center;
         align-items: center;
@@ -38,12 +40,11 @@
         display: block;
     }
     body {
-        font-family: 'lato', 'Arial', sans-serif;
-        background: #fff;
-        color: #333;
-        line-height: 1.0;
-        
-    }
+    font-family: 'lato', 'Arial', sans-serif;
+    background: linear-gradient(0deg, rgba(128, 128, 128, 0.73) 50%, #ffffff 50%);
+    color: #ffffff;
+    line-height: 1.6;
+}
     .box p {
     font-size: 99%;
     line-height: 175%;
@@ -154,12 +155,11 @@ h2 {
         display: block;
     }
     body {
-        font-family: 'lato', 'Arial', sans-serif;
-        background: #fff;
-        color: #333;
-        line-height: 1.0;
-        
-    }
+    font-family: 'lato', 'Arial', sans-serif;
+    background: linear-gradient(0deg, rgba(128, 128, 128, 0.73) 50%, #ffffff 50%);
+    color: #ffffff;
+    line-height: 1.6;
+}
     .box p {
     font-size: 99%;
     line-height: 175%;
@@ -270,12 +270,11 @@ h2 {
         display: block;
     }
     body {
-        font-family: 'lato', 'Arial', sans-serif;
-        background: #fff;
-        color: #333;
-        line-height: 1.0;
-        
-    }
+    font-family: 'lato', 'Arial', sans-serif;
+    background: linear-gradient(0deg, rgba(128, 128, 128, 0.73) 50%, #ffffff 50%);
+    color: #ffffff;
+    line-height: 1.6;
+}
     .box p {
     font-size: 99%;
     line-height: 175%;
