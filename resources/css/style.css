@@ -35,7 +35,6 @@ html {
 
 body {
     font-family: 'lato', 'Arial', sans-serif;
-    background: linear-gradient(0deg, rgba(229, 229, 229, 0.73) 50%, #ffffff 50%);
     color: #050505;
     line-height: 1.6;
 }
@@ -218,10 +217,10 @@ h4{
     text-align: center;
     word-spacing: 3px;
     font-size: 140%;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.px;
     line-height: 1.;
     text-align: center;
-    padding: 0 20px;
+    padding: 10px 0px;
 
 }
 /* PARAGRAPHS */
@@ -291,14 +290,7 @@ h4{
     width: 200px;
     height: 200px;
 }
-/*
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-right: 0.5rem; }
 
-
-*/
 
 
 /*------------------------------------*/
@@ -367,11 +359,13 @@ textarea {
 }
 
 form .submit{
+    margin-top: 0px;
+    margin-bottom: 60px;
     padding: 10px 50px;
     font-size: 135%;
     font-weight: 400;
     text-decoration: none;
-    border-radius: 50px;
+    border-radius: 500px;
     background-color: #51a7e0;
     color: #ffffff;
     border: 1px solid #51a7e0;
@@ -391,6 +385,15 @@ form .submit{
 }
 
 
+.page1{
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
 
-
+#contact.number{
+    background: rgba(160, 158, 158, 0.61) no-repeat center center/cover;
+        
+}
 

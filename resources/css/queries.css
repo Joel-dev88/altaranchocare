@@ -39,12 +39,7 @@
         font-size: 254%;
         display: block;
     }
-    body {
-    font-family: 'lato', 'Arial', sans-serif;
-    background: linear-gradient(0deg, rgba(128, 128, 128, 0.73) 50%, #ffffff 50%);
-    color: #ffffff;
-    line-height: 1.6;
-}
+    
     .box p {
     font-size: 99%;
     line-height: 175%;
@@ -109,7 +104,6 @@ h2 {
     font-size: 200%;
     font-family: 'Playfair Display', 'Georgia', serif;
     color: #28b062;
-    padding-top: 15px;
     margin:0 auto
 }
 
@@ -123,6 +117,10 @@ h2 {
     margin: 0 auto;
     width: 200px;
     height: 200px;
+}
+    #contact.number{
+    background: rgba(160, 158, 158, 0.61) no-repeat center center/cover;
+        
 }
     }
 
@@ -154,12 +152,7 @@ h2 {
         font-size: 254%;
         display: block;
     }
-    body {
-    font-family: 'lato', 'Arial', sans-serif;
-    background: linear-gradient(0deg, rgba(128, 128, 128, 0.73) 50%, #ffffff 50%);
-    color: #ffffff;
-    line-height: 1.6;
-}
+    
     .box p {
     font-size: 99%;
     line-height: 175%;
@@ -269,18 +262,14 @@ h2 {
         font-size: 194%;
         display: block;
     }
-    body {
-    font-family: 'lato', 'Arial', sans-serif;
-    background: linear-gradient(0deg, rgba(128, 128, 128, 0.73) 50%, #ffffff 50%);
-    color: #ffffff;
-    line-height: 1.6;
-}
+    
     .box p {
     font-size: 99%;
-    line-height: 175%;
+    line-height: 155%;
     padding: 0 20px;
-    position: relative;
+    
     }
+    
     .hero-text-box p {
     font-size: 115%;
     padding: 0px 16px;
@@ -339,7 +328,6 @@ h2 {
     font-size: 100%;
     font-family: 'Playfair Display', 'Georgia', serif;
     color: #28b062;
-    padding-top: 15px;
     margin:0 auto
 }
 
@@ -353,6 +341,14 @@ h2 {
     margin: 0 auto;
     width: 200px;
     height: 200px;
+}
+    #contact.number{
+        background: rgba(160, 158, 158, 0.61) ;
+        ma
+        
+
+    
+        
 }
 }
 
