@@ -59,31 +59,6 @@ body {
 
 /* HEADING */
 
-/*
-h1{
-    padding:  20px;
-    color: #ffffff;
-    font-family: 'Playfair Display', 'Georgia', serif;
-    font-size: 120px;
-    margin-bottom: 8px;
-    margin-top: 0px;
-    box-sizing: border-box;
- 
-}
-h2{
-    
-    font-size: 70px;
-    word-spacing: 2px;
-    text-align: center;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    font-family: 'Playfair Display', 'Georgia', serif;
-    color: #28b062;
-
-}
-*/
-
-                    /* new */
 
 ul {
     list-style: none;
@@ -299,7 +274,7 @@ h4{
 
                 /*Old*/
 .hero {
-    background-image: linear-gradient(rgba(78, 113, 110, 0.28), rgb(0, 0, 0, 0.7)), url(img/back_ground_Fotor.jpg);
+    background-image: linear-gradient(9deg, rgba(165, 165, 165, 0.34) 100%, rgba(146, 149, 152, 0.82) 0%), url(img/back_ground_Fotor.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -309,12 +284,17 @@ h4{
 
 .hero-text-box {
 	display: block; 
+    text-align: left;
+    
 }
 
 .hero-text-box p {
-    font-size: 125%;
+    font-size: 155%;
     padding: 0 20px;
-    
+    color: #ffffff;
+    font-family: sans-serif;
+    letter-spacing: 1.3px;
+    font-style: normal;
 }
 
 
@@ -386,7 +366,6 @@ form .submit{
 
 
 .page1{
-    height: 100vh;
     align-content: center;
     justify-content: center;
     text-align: center;
