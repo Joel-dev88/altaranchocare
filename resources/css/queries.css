@@ -1,7 +1,13 @@
 
 /* Big tables to 1200px (widths smaller taht the 1140px) */
 @media only screen and (max-width: 1140px) {
-    
+    .hero {
+    background-image: linear-gradient(rgba(78, 113, 110, 0.28), rgb(0, 0, 0, 0.7)), url(img/back_ground_Fotor.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;    
+}
     }
 
 
@@ -33,6 +39,7 @@
         margin-top: 33px;
         box-sizing: border-box;
     }
+
     .sub-main {
         color: #eded8d;
         padding: 0 auto;
@@ -139,11 +146,11 @@ h2 {
         line-height: 1.0;
     }
     .hero-text-box h1 {
-        padding:  25px;
+        padding: 0 auto;
         color: #ffffff;
         font-family: 'Playfair Display', 'Georgia', serif;
         font-size: 520%;
-        margin-top: 33px;
+        margin-top: -10px;
         box-sizing: border-box;
     }
     .sub-main {
@@ -169,13 +176,13 @@ h2 {
     .btn:link,
     .btn:visited{
         text-align: center;
-        font-size: 102%;
+        font-size: 80%;
         text-decoration: none;
         border-radius: 45px;
         color: #ffffff;
         border: 1px solid #51a7e0;
         align-items: center;
-        margin: 15px auto;
+        margin: 1px auto;
 }
 
 .btn-full:link,
@@ -248,6 +255,14 @@ h2 {
         font-weight: 200;
         line-height: 1.0;
     }
+    h4{
+    text-align: center;
+    word-spacing: 2px;
+    font-size: 100%;
+    text-align: center;
+    padding: 10px 10px;
+
+}
     .hero-text-box h1 {
         padding:  30px;
         color: #ffffff;
@@ -278,8 +293,7 @@ h2 {
     
 .btn:link,
 .btn:visited{
-    text-align: center;
-    margin-top: -10px;
+    margin-left: 5px;
 
     font-size: 92%;
     text-decoration: none;
