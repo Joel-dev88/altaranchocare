@@ -96,45 +96,128 @@ img {
 }
 
                  /* Navbar new*/
-
-.navbar {
+nav{
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    text-align: right;
-    justify-content: space-between;
-    background-color: #333;
-    color: #fff;
-    opacity: 0.8;
-    background-image: linear-gradient(9deg, rgba(0, 0, 0, 0.85) 100%, rgba(146, 149, 152, 0.82) 0%);
-    width: 100%;
-    position: fixed;
-    padding: 0 20px;
-    margin: 15px;
-    border-radius: 25px;
-    z-index: 9999;
+    min-height: 8vh;
+    background-image: linear-gradient(9deg, rgba(162, 162, 162, 0.564) 100%, rgba(146, 149, 152, 0.82) 0%);    
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    letter-spacing: 3px;
+    font-size: 329%;
+    font-family: "Bad Script";
+    color: rgb(31, 26, 12);
 }
 
-.navbar a {
-    color: #ffffff;
-    font-size: 20px;
-    padding: 1px 25px;
-    margin: 0 20px;
-}
-
-.navbar a:hover {
-    border-bottom: #28a745  5px solid;
-}
-
-.navbar ul {
+.nav-links{
     display: flex;
+    justify-content: space-around;
+    width: 45%;
 }
 
+.nav-links li{
+    list-style: none;
+    color: black;
+}
 
-.navbar .logo {
-    font-weight: 00;
-    padding: 10px 25px;
-    font-size: 45px;
-    font-family: "Bad Script", 'Arial', sans-serif;
+.nav-links a{
+    color: rgb(33, 33, 33);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+
+.burger div{
+    width: 25px;
+    height: 4px;
+    background-color: rgb(60, 60, 60);
+    margin: 4px;
+    transition: all 0.3s ease;
+}
+
+@media screen and (max-width:1024px){
+    .nav-links{
+        width: 50%;
+    }
+    .logo{
+        letter-spacing: 3px;
+        font-size: 200%;
+        font-family: "Bad Script";
+        color: rgb(31, 26, 12);
+    }
+    .nav-links a{
+        color: rgb(33, 33, 33);        
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width:768px){
+    .logo{
+        letter-spacing: 3px;
+        font-size: 175%;
+        font-family: "Bad Script";
+        color: rgb(31, 26, 12);
+    }
+    body{
+        overflow-x: hidden;
+    }
+
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 8vh;
+        background-image: linear-gradient(9deg, rgba(220, 219, 219, 0.934) 100%, rgba(146, 149, 152, 0.82) 0%);          display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-links li{
+        opacity: 0;
+        color: black;
+    }
+
+    .burger{
+        display: block;
+    }
+}
+.nav-active{
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
 }
 
 
@@ -274,7 +357,7 @@ h4{
 
                 /*Old*/
 .hero {
-    background-image: linear-gradient(9deg, rgba(165, 165, 165, 0.34) 100%, rgba(146, 149, 152, 0.82) 0%), url(img/back_ground_Fotor.jpg);
+    background-image: linear-gradient(rgba(78, 113, 110, 0.28), rgb(0, 0, 0, 0.7)), url(img/back_ground_Fotor.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
